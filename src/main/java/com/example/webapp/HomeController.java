@@ -21,5 +21,10 @@ public class HomeController {
     public @ResponseBody String greetingNova() {
         return "Hello, Nova!";
     }
+    
+    @RequestMapping("/hotfix")
+    public @ResponseBody String greetingHotfix() {
+    return "Hotfix applied successfully!";
+    }
 
 }
