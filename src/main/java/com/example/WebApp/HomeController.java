@@ -19,7 +19,7 @@ public class HomeController {
     
     @RequestMapping("/nova")
     public @ResponseBody String greetingNova() {
-        return "Hello, Nova!";
+        return "Hello, nova julia!";
     }
     
     @RequestMapping("/hotfix")
