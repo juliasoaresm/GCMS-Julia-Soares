@@ -27,11 +27,6 @@ public class HomeController {
     return "Hotfix applied successfully!";
     }
 
-    @RequestMapping("/")
-    public @ResponseBody String greeting() {
-    return "Hello, World! (Updated in Main)";
-    }
-
     @RequestMapping("/feature")
     public @ResponseBody String greetingFeature() {
     return "New Feature in Main Branch";
