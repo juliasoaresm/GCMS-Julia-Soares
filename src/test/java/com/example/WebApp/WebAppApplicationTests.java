@@ -48,6 +48,6 @@ class WebAppApplicationTests {
         this.mockMvc.perform(get("/hotfix"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Hotfix2 applied successfully!")));
+                .andExpect(content().string(containsString("Hotfix applied successfully!")));
     }
 }
